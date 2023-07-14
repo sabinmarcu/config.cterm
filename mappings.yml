@@ -30,7 +30,7 @@
 - { key: "z", mods: [ "CMD", "CTRL" ], action: "\x02z" } # toggle zoom state
 - { key: "t", mods: [ "CMD" ], action: "\x02c" } # create new tmux window
 - { key: "x", mods: [ "CMD" ], action: "\x02x" } # kill current pane
-- { key: "e", mods: [ "CMD" ], action: "\x02" } # split window horizontally 
+- { key: "e", mods: [ "CMD" ], action: "\x02\\\"" } # split window horizontally 
 - { key: "e", mods: [ "CMD", "SHIFT" ], action: "\x02%" } # split window vertically
 - { key: "f", mods: [ "CMD", "SHIFT" ], action: "\x02\x5b\x2f" } # tmux search mode
 - { key: "k", mods: [ "CMD" ], action: "\x02s" } # interactive tmux session
