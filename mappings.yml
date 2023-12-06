@@ -39,4 +39,5 @@
 - { key: "n", mods: ["CMD", "SHIFT"], action: "\x02N" } # new session
 - { key: "k", mods: ["CMD", "SHIFT"], action: "\x02K" } # new session
 - { key: "Comma", mods: [ "CMD", "SHIFT"], action: "\x02$" } # rename session
+- { key: "f", mods: [ "CMD" ], action: "\x02F" } # fingers
 
