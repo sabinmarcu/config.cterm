@@ -11,8 +11,8 @@
 - { key: "h", mods: [ "CMD", "SHIFT" ], action: "\x02h" } # move pane right
 - { key: "j", mods: [ "CMD", "SHIFT" ], action: "\x02j" } # move pane down
 - { key: "k", mods: [ "CMD", "SHIFT" ], action: "\x02k" } # move pane up
-- { key: "LBracket", mods: [ "CMD", "SHIFT" ], action: "\x02p" } # previous window
-- { key: "RBracket", mods: [ "CMD", "SHIFT" ], action: "\x02n" } # next window
+- { key: "LBracket", mods: [ "CMD" ], action: "\x02p" } # previous window
+- { key: "RBracket", mods: [ "CMD" ], action: "\x02n" } # next window
 - { key: "Semicolon", mods: [ "CMD" ], action: "\x02:" } # tmux command
 - { key: "p", mods: [ "CMD", "SHIFT" ], action: "\x02F" } # tmux fzf 
 - { key: "Key1", mods: [ "CMD" ], action: "\x021" } # window 1
