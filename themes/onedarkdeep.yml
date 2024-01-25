@@ -20,15 +20,14 @@ colors:
   background: "#1a212e"
   foreground: "#6c7d9c"
   cursor: "#6c7d9c"
-  
+
 overrides:
-  nvim: 
+  nvim:
     theme: onedark
-    plugin: |
+    plugins: |
       {
         "navarasu/onedark.nvim",
-        config = function()
-          require('onedark').setup({ style = 'deep' })
-        end
+        config = {
+          style = 'deep'
+        }
       },
-

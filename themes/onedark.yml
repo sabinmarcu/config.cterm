@@ -27,3 +27,12 @@ colors:
 overrides:
   tmux:
     color: '#98c379'
+  nvim:
+    theme: onedark
+    plugins: |
+      {
+        "navarasu/onedark.nvim",
+        config = {
+          style = 'cool'
+        }
+      },
