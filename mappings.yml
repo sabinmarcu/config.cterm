@@ -35,7 +35,7 @@
 - { key: "f", mods: [ "CMD", "SHIFT" ], action: "\x02\x5b\x2f", description: "tmux search mode" }
 - { key: "k", mods: [ "CMD" ], action: "\x02s", description: "interactive tmux session" }
 - { key: "j", mods: [ "CMD" ], action: "\x02\x54", description: "smart tmux session" }
-- { key: "l", mods: [ "CMD" ], action: "\x02l", description: "tmux search session" }
+- { key: "l", mods: [ "CMD" ], action: "\x02L", description: "tmux search session" }
 - { key: "n", mods: ["CMD", "SHIFT"], action: "\x02N", description: "new session" }
 - { key: "k", mods: ["CMD", "SHIFT"], action: "\x02K", description: "new session" }
 - { key: "Comma", mods: [ "CMD", "SHIFT"], action: "\x02$", description: "rename session" }
