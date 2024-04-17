@@ -1,0 +1,15 @@
+colors:
+  normal: &a1
+    black: "#ebe0df"
+    red: "#b4637a"
+    green: "#618774"
+    yellow: "#ea9d34"
+    blue: "#286983"
+    magenta: "#907aa9"
+    cyan: "#56949f"
+    white: "#e6ebf3"
+  bright: *a1
+  foreground: "#575279"
+  background: "#faf4ed"
+  accent: "#575279"
+  cursor: "#575279"
